@@ -1,4 +1,4 @@
-package com.hmdp.entity;
+package com.gldp.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
  * 
  * </p>
  *
- * @author 虎哥
+ * @author gl
  * @since 2021-12-22
  */
 @Data

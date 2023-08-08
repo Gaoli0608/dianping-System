@@ -1,15 +1,15 @@
-package com.hmdp.service.impl;
+package com.gldp.service.impl;
 
 import cn.hutool.core.bean.BeanUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.hmdp.dto.Result;
-import com.hmdp.dto.UserDTO;
-import com.hmdp.entity.Follow;
-import com.hmdp.mapper.FollowMapper;
-import com.hmdp.service.IFollowService;
-import com.hmdp.service.IUserService;
-import com.hmdp.utils.UserHolder;
+import com.gldp.dto.Result;
+import com.gldp.dto.UserDTO;
+import com.gldp.entity.Follow;
+import com.gldp.mapper.FollowMapper;
+import com.gldp.service.IFollowService;
+import com.gldp.service.IUserService;
+import com.gldp.utils.UserHolder;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
  * 服务实现类
  * </p>
  *
- * @author 虎哥
+ * @author gl
  * @since 2021-12-22
  */
 @Service

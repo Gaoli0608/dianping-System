@@ -1,10 +1,10 @@
-package com.hmdp;
+package com.gldp;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@MapperScan("com.hmdp.mapper")
+@MapperScan("com.gldp.mapper")
 @SpringBootApplication
 public class HmDianPingApplication {
 

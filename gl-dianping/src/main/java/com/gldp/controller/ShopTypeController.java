@@ -1,9 +1,9 @@
-package com.hmdp.controller;
+package com.gldp.controller;
 
 
-import com.hmdp.dto.Result;
-import com.hmdp.entity.ShopType;
-import com.hmdp.service.IShopTypeService;
+import com.gldp.dto.Result;
+import com.gldp.entity.ShopType;
+import com.gldp.service.IShopTypeService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,7 +16,7 @@ import java.util.List;
  * 前端控制器
  * </p>
  *
- * @author 虎哥
+ * @author gl
  */
 @RestController
 @RequestMapping("/shop-type")

@@ -1,12 +1,12 @@
-package com.hmdp.service.impl;
+package com.gldp.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.hmdp.dto.Result;
-import com.hmdp.entity.SeckillVoucher;
-import com.hmdp.entity.Voucher;
-import com.hmdp.mapper.VoucherMapper;
-import com.hmdp.service.ISeckillVoucherService;
-import com.hmdp.service.IVoucherService;
+import com.gldp.dto.Result;
+import com.gldp.entity.SeckillVoucher;
+import com.gldp.entity.Voucher;
+import com.gldp.mapper.VoucherMapper;
+import com.gldp.service.ISeckillVoucherService;
+import com.gldp.service.IVoucherService;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -14,14 +14,14 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.annotation.Resource;
 import java.util.List;
 
-import static com.hmdp.utils.RedisConstants.SECKILL_STOCK_KEY;
+import static com.gldp.utils.RedisConstants.SECKILL_STOCK_KEY;
 
 /**
  * <p>
  *  服务实现类
  * </p>
  *
- * @author 虎哥
+ * @author gl
  * @since 2021-12-22
  */
 @Service

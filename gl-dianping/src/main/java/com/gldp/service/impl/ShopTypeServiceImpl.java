@@ -1,8 +1,8 @@
-package com.hmdp.service.impl;
+package com.gldp.service.impl;
 
-import com.hmdp.entity.ShopType;
-import com.hmdp.mapper.ShopTypeMapper;
-import com.hmdp.service.IShopTypeService;
+import com.gldp.entity.ShopType;
+import com.gldp.mapper.ShopTypeMapper;
+import com.gldp.service.IShopTypeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  *  服务实现类
  * </p>
  *
- * @author 虎哥
+ * @author gl
  * @since 2021-12-22
  */
 @Service

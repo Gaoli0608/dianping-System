@@ -1,7 +1,7 @@
-package com.hmdp.service;
+package com.gldp.service;
 
-import com.hmdp.dto.Result;
-import com.hmdp.entity.Shop;
+import com.gldp.dto.Result;
+import com.gldp.entity.Shop;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  *  服务类
  * </p>
  *
- * @author 虎哥
+ * @author gl
  * @since 2021-12-22
  */
 public interface IShopService extends IService<Shop> {

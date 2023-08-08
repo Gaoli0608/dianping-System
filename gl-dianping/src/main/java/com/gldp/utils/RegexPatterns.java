@@ -1,7 +1,7 @@
-package com.hmdp.utils;
+package com.gldp.utils;
 
 /**
- * @author 虎哥
+ * @author gl
  */
 public abstract class RegexPatterns {
     /**

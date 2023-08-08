@@ -1,15 +1,15 @@
-package com.hmdp.controller;
+package com.gldp.controller;
 
 
 import cn.hutool.core.bean.BeanUtil;
-import com.hmdp.dto.LoginFormDTO;
-import com.hmdp.dto.Result;
-import com.hmdp.dto.UserDTO;
-import com.hmdp.entity.User;
-import com.hmdp.entity.UserInfo;
-import com.hmdp.service.IUserInfoService;
-import com.hmdp.service.IUserService;
-import com.hmdp.utils.UserHolder;
+import com.gldp.dto.LoginFormDTO;
+import com.gldp.dto.Result;
+import com.gldp.dto.UserDTO;
+import com.gldp.entity.User;
+import com.gldp.entity.UserInfo;
+import com.gldp.service.IUserInfoService;
+import com.gldp.service.IUserService;
+import com.gldp.utils.UserHolder;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
@@ -21,7 +21,7 @@ import javax.servlet.http.HttpSession;
  * 前端控制器
  * </p>
  *
- * @author 虎哥
+ * @author gl
  */
 @Slf4j
 @RestController

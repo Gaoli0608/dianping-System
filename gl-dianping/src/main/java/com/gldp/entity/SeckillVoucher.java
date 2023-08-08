@@ -1,4 +1,4 @@
-package com.hmdp.entity;
+package com.gldp.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
  * 秒杀优惠券表，与优惠券是一对一关系
  * </p>
  *
- * @author 虎哥
+ * @author gl
  * @since 2022-01-04
  */
 @Data

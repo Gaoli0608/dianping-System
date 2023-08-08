@@ -1,6 +1,6 @@
-package com.hmdp.service;
+package com.gldp.service;
 
-import com.hmdp.entity.BlogComments;
+import com.gldp.entity.BlogComments;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  *  服务类
  * </p>
  *
- * @author 虎哥
+ * @author gl
  * @since 2021-12-22
  */
 public interface IBlogCommentsService extends IService<BlogComments> {

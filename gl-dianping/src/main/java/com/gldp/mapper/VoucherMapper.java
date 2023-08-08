@@ -1,7 +1,7 @@
-package com.hmdp.mapper;
+package com.gldp.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.hmdp.entity.Voucher;
+import com.gldp.entity.Voucher;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -11,7 +11,7 @@ import java.util.List;
  *  Mapper 接口
  * </p>
  *
- * @author 虎哥
+ * @author gl
  * @since 2021-12-22
  */
 public interface VoucherMapper extends BaseMapper<Voucher> {

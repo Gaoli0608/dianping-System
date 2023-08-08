@@ -1,8 +1,8 @@
-package com.hmdp.service.impl;
+package com.gldp.service.impl;
 
-import com.hmdp.entity.BlogComments;
-import com.hmdp.mapper.BlogCommentsMapper;
-import com.hmdp.service.IBlogCommentsService;
+import com.gldp.entity.BlogComments;
+import com.gldp.mapper.BlogCommentsMapper;
+import com.gldp.service.IBlogCommentsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  *  服务实现类
  * </p>
  *
- * @author 虎哥
+ * @author gl
  * @since 2021-12-22
  */
 @Service

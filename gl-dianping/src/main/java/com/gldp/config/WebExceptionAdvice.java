@@ -1,6 +1,6 @@
-package com.hmdp.config;
+package com.gldp.config;
 
-import com.hmdp.dto.Result;
+import com.gldp.dto.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

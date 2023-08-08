@@ -1,9 +1,9 @@
-package com.hmdp.utils;
+package com.gldp.utils;
 
 import cn.hutool.core.util.StrUtil;
 
 /**
- * @author 虎哥
+ * @author gl
  */
 public class RegexUtils {
     /**
